@@ -107,7 +107,7 @@ export class Navbar extends Component {
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
-                    <Link to="/about" className="dropdown-item">
+                    <Link to="/developer" className="dropdown-item">
                       About Developer
                     </Link>
                     <Link to="/about" className="dropdown-item">
