@@ -51,22 +51,22 @@ export default class DisplayQuestions extends Component {
                   {item.id}. {item.title}
                 </h4>
                 <label>
-                  <input type="radio" value="option1" checked={false} />A{" "}
+                  <input type="radio" value="option1" checked={false} />A
                   {item.a}
                 </label>
                 <br />
                 <label>
-                  <input type="radio" value="option1" checked={false} />B{" "}
+                  <input type="radio" value="option1" checked={false} />B
                   {item.b}
                 </label>
                 <br />
                 <label>
-                  <input type="radio" value="option1" checked={false} />C{" "}
+                  <input type="radio" value="option1" checked={false} />C
                   {item.c}
                 </label>
                 <br />
                 <label>
-                  <input type="radio" value="option1" checked={false} />D{" "}
+                  <input type="radio" value="option1" checked={false} />D
                   {item.d}
                 </label>
               </div>
