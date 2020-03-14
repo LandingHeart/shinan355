@@ -110,9 +110,9 @@ export class Navbar extends Component {
                     <Link to="/about" className="dropdown-item">
                       About Developer
                     </Link>
-                    <a href="/" className="dropdown-item">
+                    <Link to="/about" className="dropdown-item">
                       Contact
-                    </a>
+                    </Link>
                   </div>
                 </li>
 
@@ -152,17 +152,6 @@ export class Navbar extends Component {
                 </li>
 
                 <li className="nav-item dropdown">
-                  <a
-                    className="nav-link"
-                    href="/"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Search
-                  </a>
                   <div
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
