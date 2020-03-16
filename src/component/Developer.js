@@ -15,6 +15,22 @@ export default class Developer extends Component {
         }}
       >
         <div style={{ padding: "30px" }}>
+          <div className="">
+            <p>
+              I am Shinan Liu, I study computer science and I learn many
+              different web framworks or rather library to build a website. It
+              is really fun
+            </p>
+            <p>
+              This is an email link: contact me
+              <a
+                href="mailto:shinan0123@gmail.com.com?Subject=Hello%20again"
+                target="_top"
+              >
+                Send Mail
+              </a>
+            </p>
+          </div>
           <form onSumit={this.handleSubmit}>
             <h3 style={{ paddingBottom: "20px" }}> Group Member</h3>
             <div className="form-group">
