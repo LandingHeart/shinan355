@@ -8,7 +8,7 @@ export default class Developer extends Component {
         className="container"
         style={{
           width: "350px",
-          height: "500px",
+          height: "600px",
           marginTop: "20px",
           boxShadow:
             "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"
