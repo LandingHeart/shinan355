@@ -29,6 +29,18 @@ export class Navbar extends Component {
                 <Link className="navbar-item nav-link" to="/questions">
                   TOPIQ
                 </Link>
+                <li
+                  className="navbar-item nav-link"
+                  to="/questions"
+                  onClick={() =>
+                    window.open(
+                      "https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fbbhosted.cuny.edu%252Fwebapps%252Flogin%252Fnoportal",
+                      "_blank"
+                    )
+                  }
+                >
+                  BLACKBOARD
+                </li>
                 {/* <Link className="navbar-item nav-link" to="/addQuestion">
                   add questions
                 </Link> */}
